@@ -1,0 +1,12 @@
+.flashlight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  &__bulb {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background-color: #f6e58d;
+  }
+}
